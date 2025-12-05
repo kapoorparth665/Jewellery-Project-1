@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Elegant Gems - Diamond Pendant Necklace</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            color: #2c2c2c;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .welcome {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+
+        }
+        .welcome p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+        }
+        .item-detail {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .item {
+            background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
+            border: 2px solid #d4af37;
+            border-radius: 20px;
+            padding: 50px;
+            width: 600px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+        }
+        .item h2 {
+            font-family: 'Playfair Display', serif;
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .item p {
+            margin: 20px 0;
+            font-size: 1.1em;
+            color: #666;
+        }
+        .price {
+            font-weight: 600;
+            color: #27ae60;
+            font-size: 2em;
+            margin: 30px 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .addtocart {
+            background: linear-gradient(135deg, #d4af37 0%, #ffd700 100%);
+            color: #fff;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+            transition: all 0.3s ease;
+        }
+        .addtocart:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(212, 175, 55, 0.6);
+            background: linear-gradient(135deg, #ffd700 0%, #d4af37 100%);
+        }
+        .whyshop {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        .whyshop h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .whyshop ul {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .whyshop li {
+            margin: 15px 0;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 30px;
+        }
+        .whyshop li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            color: #d4af37;
+        }
+        footer {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+        }
+        footer p {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        h3{
+             font-family: 'Playfair Display', serif;
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-size: 24px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diamond Jewellers</h1>
+    </header>
+    
+    <section class="welcome">
+        <p>Welcome to Dimond Jwellers, your premier destination for exquisite, handcrafted jewelry. Discover timeless pieces that blend elegance, craftsmanship, and affordability. All items are made with high-quality materials and come with a satisfaction guarantee. Check out this featured item below and add it to your cart!</p>
+    </section>
+    
+    <section class="item-detail">
+        <div class="item">
+            <h2>Diamond Jewellers</h2>
+            <a class="addtocart" href="https://wa.me/91">Click here to order on whatsapp</a>
+            <br><br>
+            <h3><b>You Can also order your custom designs from here.</b></h3>
+        </div>
+    </section>
+    
+    <section class="whyshop">
+        <h2>Location of our store </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1756037.9411543594!2d74.32044145625!3d30.725101699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed9a0bcf9521%3A0x72dc41b229d2a1cf!2sPerfect%20Diamonds%20%7C%20Diamond%20Jewellery%20Showroom%20%7C%20Diamond%20%26%20Gold%20Ring%20Specialist%20%7C%20IGI%2FGIA%20Certified!5e0!3m2!1sen!2sin!4v1764766212540!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h3><b>Why Shop with Us?</b></h3>
+        <ul>
+            <li>Quality Assurance: Every piece is inspected for durability and authenticity.</li>
+            <li>Free Shipping: On orders over Rs 200000.</li>
+            <li>Custom Options: Personalize items with engravings or gemstone choices.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>Devloped By Parth Kapoor</p>
+    </footer>
+</body>
+</html>
